@@ -1,0 +1,11 @@
+service: logger-v2
+runtime: nodejs12
+env: standard
+env_variables:
+  PORT: "8080"
+  DBHOST: "34.101.186.187"
+  DBNAME: "logger"
+  DBUSER: "nodeuser"
+  DBPASSWORD: "rotikeju98"
+  DBENGINE: "postgresql"
+
